@@ -1,0 +1,26 @@
+
+.footer {
+    background-color: $pokemon-blue;
+    color: $text-color;
+    text-align: center;
+    padding: $padding-large;
+    border-top: 4px solid $pokemon-yellow;
+    font-family: $font-family;
+    box-shadow: $box-shadow;
+}
+
+.footer p {
+    font-size: $font-size;
+    margin: $padding-small 0;
+}
+
+.footer a {
+    color: $pokemon-yellow;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+        color: lighten($pokemon-yellow, 15%);
+    }
+}

@@ -1,0 +1,21 @@
+
+.container {
+    background-color: $card-bg;
+    padding: $padding-large;
+    font-family: $font-family;
+    text-align: center;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap-size;
+    justify-content: center;
+    padding: $padding-large;
+}
+
+.characters p {
+    font-size: $font-size;
+    font-weight: bold;
+    color: $pokemon-blue;
+}
